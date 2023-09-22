@@ -9,21 +9,38 @@
 /* Begin PBXBuildFile section */
 		B28FAFD52ABDFE980011E864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FAFD42ABDFE980011E864 /* AppDelegate.swift */; };
 		B28FAFD72ABDFE980011E864 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FAFD62ABDFE980011E864 /* SceneDelegate.swift */; };
-		B28FAFD92ABDFE980011E864 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FAFD82ABDFE980011E864 /* ViewController.swift */; };
 		B28FAFDC2ABDFE980011E864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28FAFDA2ABDFE980011E864 /* Main.storyboard */; };
 		B28FAFDE2ABDFE9C0011E864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28FAFDD2ABDFE9C0011E864 /* Assets.xcassets */; };
 		B28FAFE12ABDFE9C0011E864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28FAFDF2ABDFE9C0011E864 /* LaunchScreen.storyboard */; };
+		B28FAFEA2ABDFF180011E864 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FAFE92ABDFF180011E864 /* Coordinator.swift */; };
+		B28FAFEC2ABDFF330011E864 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FAFEB2ABDFF330011E864 /* NavigationCoordinator.swift */; };
+		B28FAFF32ABDFFB40011E864 /* UserServiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FAFF22ABDFFB40011E864 /* UserServiceApi.swift */; };
+		B28FAFF52ABDFFDD0011E864 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FAFF42ABDFFDD0011E864 /* Endpoints.swift */; };
+		B28FAFF72ABE000F0011E864 /* UserSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FAFF62ABE000F0011E864 /* UserSearchViewController.swift */; };
+		B28FAFF92ABE00A70011E864 /* DisplayUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FAFF82ABE00A70011E864 /* DisplayUserProfileViewController.swift */; };
+		B28FAFFB2ABE00F20011E864 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FAFFA2ABE00F20011E864 /* User.swift */; };
+		B28FAFFD2ABE01250011E864 /* UserViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FAFFC2ABE01250011E864 /* UserViewCell.swift */; };
+		B28FAFFF2ABE015F0011E864 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FAFFE2ABE015F0011E864 /* UserProfileView.swift */; };
+		B28FB0022ABE01B00011E864 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = B28FB0012ABE01B00011E864 /* SDWebImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B28FAFD12ABDFE980011E864 /* isOnGithub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = isOnGithub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B28FAFD42ABDFE980011E864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B28FAFD62ABDFE980011E864 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B28FAFD82ABDFE980011E864 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B28FAFDB2ABDFE980011E864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B28FAFDD2ABDFE9C0011E864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B28FAFE02ABDFE9C0011E864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B28FAFE22ABDFE9C0011E864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B28FAFE92ABDFF180011E864 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		B28FAFEB2ABDFF330011E864 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
+		B28FAFF22ABDFFB40011E864 /* UserServiceApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServiceApi.swift; sourceTree = "<group>"; };
+		B28FAFF42ABDFFDD0011E864 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		B28FAFF62ABE000F0011E864 /* UserSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchViewController.swift; sourceTree = "<group>"; };
+		B28FAFF82ABE00A70011E864 /* DisplayUserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayUserProfileViewController.swift; sourceTree = "<group>"; };
+		B28FAFFA2ABE00F20011E864 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B28FAFFC2ABE01250011E864 /* UserViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewCell.swift; sourceTree = "<group>"; };
+		B28FAFFE2ABE015F0011E864 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B28FB0022ABE01B00011E864 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +74,71 @@
 		B28FAFD32ABDFE980011E864 /* isOnGithub */ = {
 			isa = PBXGroup;
 			children = (
+				B28FAFF12ABDFF970011E864 /* Service */,
+				B28FAFED2ABDFF670011E864 /* Search */,
+				B28FAFE82ABDFEFB0011E864 /* Navigation */,
 				B28FAFD42ABDFE980011E864 /* AppDelegate.swift */,
 				B28FAFD62ABDFE980011E864 /* SceneDelegate.swift */,
-				B28FAFD82ABDFE980011E864 /* ViewController.swift */,
 				B28FAFDA2ABDFE980011E864 /* Main.storyboard */,
-				B28FAFDD2ABDFE9C0011E864 /* Assets.xcassets */,
 				B28FAFDF2ABDFE9C0011E864 /* LaunchScreen.storyboard */,
 				B28FAFE22ABDFE9C0011E864 /* Info.plist */,
+				B28FAFDD2ABDFE9C0011E864 /* Assets.xcassets */,
 			);
 			path = isOnGithub;
+			sourceTree = "<group>";
+		};
+		B28FAFE82ABDFEFB0011E864 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				B28FAFE92ABDFF180011E864 /* Coordinator.swift */,
+				B28FAFEB2ABDFF330011E864 /* NavigationCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		B28FAFED2ABDFF670011E864 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				B28FAFEE2ABDFF790011E864 /* Model */,
+				B28FAFEF2ABDFF7F0011E864 /* View */,
+				B28FAFF02ABDFF8C0011E864 /* Controller */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		B28FAFEE2ABDFF790011E864 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B28FAFFA2ABE00F20011E864 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B28FAFEF2ABDFF7F0011E864 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B28FAFFC2ABE01250011E864 /* UserViewCell.swift */,
+				B28FAFFE2ABE015F0011E864 /* UserProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B28FAFF02ABDFF8C0011E864 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B28FAFF62ABE000F0011E864 /* UserSearchViewController.swift */,
+				B28FAFF82ABE00A70011E864 /* DisplayUserProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B28FAFF12ABDFF970011E864 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B28FAFF22ABDFFB40011E864 /* UserServiceApi.swift */,
+				B28FAFF42ABDFFDD0011E864 /* Endpoints.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +157,9 @@
 			dependencies = (
 			);
 			name = isOnGithub;
+			packageProductDependencies = (
+				B28FB0012ABE01B00011E864 /* SDWebImage */,
+			);
 			productName = isOnGithub;
 			productReference = B28FAFD12ABDFE980011E864 /* isOnGithub.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +188,9 @@
 				Base,
 			);
 			mainGroup = B28FAFC82ABDFE980011E864;
+			packageReferences = (
+				B28FB0002ABE01B00011E864 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = B28FAFD22ABDFE980011E864 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +218,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B28FAFD92ABDFE980011E864 /* ViewController.swift in Sources */,
 				B28FAFD52ABDFE980011E864 /* AppDelegate.swift in Sources */,
+				B28FAFFD2ABE01250011E864 /* UserViewCell.swift in Sources */,
 				B28FAFD72ABDFE980011E864 /* SceneDelegate.swift in Sources */,
+				B28FAFF72ABE000F0011E864 /* UserSearchViewController.swift in Sources */,
+				B28FAFEC2ABDFF330011E864 /* NavigationCoordinator.swift in Sources */,
+				B28FAFEA2ABDFF180011E864 /* Coordinator.swift in Sources */,
+				B28FAFFB2ABE00F20011E864 /* User.swift in Sources */,
+				B28FAFFF2ABE015F0011E864 /* UserProfileView.swift in Sources */,
+				B28FAFF52ABDFFDD0011E864 /* Endpoints.swift in Sources */,
+				B28FAFF92ABE00A70011E864 /* DisplayUserProfileViewController.swift in Sources */,
+				B28FAFF32ABDFFB40011E864 /* UserServiceApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +446,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B28FB0002ABE01B00011E864 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B28FB0012ABE01B00011E864 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B28FB0002ABE01B00011E864 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B28FAFC92ABDFE980011E864 /* Project object */;
 }
